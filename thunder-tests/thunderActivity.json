@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "ae2e9b55-1c7b-4592-a493-b62334dca15d",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000//v1/auth/register",
+    "url": "localhost:3000//v1/auth/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-07-20T15:50:47.490Z",
+    "modified": "2023-07-20T15:51:25.665Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"fake name\",\n  \"email\": \"fake@example.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "99b120d6-ba44-4dcd-9659-372fc4d48aa5",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/v1/auth/register",
+    "url": "localhost:3000/v1/auth/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-07-20T15:51:46.173Z",
+    "modified": "2023-07-20T15:54:33.737Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"email\": \"fake@example.com\",\r\n  \"password\": \"password1\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "789ab89e-f625-4af7-b5d0-d38420c0f9e9",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000//v1/auth/login",
+    "url": "localhost:3000//v1/auth/login",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-07-20T22:28:27.499Z",
+    "modified": "2023-07-20T22:28:27.499Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"fake@example.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0028ee3d-0083-4d53-923a-da6f97615f2e",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/v1/auth/login",
+    "url": "localhost:3000/v1/auth/login",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-07-20T22:28:35.250Z",
+    "modified": "2023-07-20T22:28:35.250Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"fake@example.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "11d238bc-1fed-41e8-b69f-b9ae0dde4476",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/v1/auth/login",
+    "url": "localhost:3000/v1/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-07-20T22:28:40.692Z",
+    "modified": "2023-07-20T22:28:40.692Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"fake@example.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
