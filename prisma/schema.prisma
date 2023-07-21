@@ -33,6 +33,17 @@ model Token {
   userId      Int
 }
 
+model Contact {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String
+  instagram String
+  email     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deleted  Boolean  @default(false)
+}
+
 enum Role {
   USER
   ADMIN

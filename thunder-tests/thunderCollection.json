@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "_id": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "colName": "Contact",
+    "created": "2023-07-21T00:26:28.638Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "aa9ed3f3-6c3e-4d23-9b4d-5a5febb9884f",
+        "name": "Auth",
+        "containerId": "",
+        "created": "2023-07-21T00:26:37.813Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "1bcd234b-58a2-4f52-9bc9-1600fb9c5e03",
+        "name": "User",
+        "containerId": "",
+        "created": "2023-07-21T05:20:58.985Z",
+        "sortNum": 20000
+      }
+    ],
+    "settings": {
+      "auth": {
+        "type": "bearer",
+        "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY4OTkyNTIwMywiZXhwIjoyMjg5OTI1MTQzLCJ0eXBlIjoiQUNDRVNTIn0.5owDvrXaHb7Lh5IkLjX6fetRmJ46RLfcQrxUqQ0wkss"
+      }
+    }
+  }
+]

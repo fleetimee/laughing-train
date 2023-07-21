@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "_id": "0a87782f-78ba-4c81-8809-c9f09d0311a3",
+    "colId": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "containerId": "aa9ed3f3-6c3e-4d23-9b4d-5a5febb9884f",
+    "name": "Register",
+    "url": "{{baseUrl}}/v1/auth/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-07-21T00:26:43.638Z",
+    "modified": "2023-07-21T05:18:51.764Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"aaaa.227@gmail.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "79e0a501-9f4c-4dc1-baa9-8f325e7e51e0",
+    "colId": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "containerId": "aa9ed3f3-6c3e-4d23-9b4d-5a5febb9884f",
+    "name": "Send verification email",
+    "url": "{{baseUrl}}/v1/auth/send-verification-email",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-07-21T00:37:27.892Z",
+    "modified": "2023-07-21T00:40:25.975Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY4OTkwMDAxNCwiZXhwIjoxNjg5OTAxODE0LCJ0eXBlIjoiQUNDRVNTIn0.VzcQH-jCuOT3ldP3rxpEOSh8YKGQTM6PYlxmvCIR3ms"
+    },
+    "tests": []
+  },
+  {
+    "_id": "17bce68a-f72f-4c86-8372-276f471af66f",
+    "colId": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "containerId": "aa9ed3f3-6c3e-4d23-9b4d-5a5febb9884f",
+    "name": "Login",
+    "url": "{{baseUrl}}/v1/auth/login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-07-21T00:38:11.776Z",
+    "modified": "2023-07-21T00:40:14.268Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"zane.227@gmail.com\",\n  \"password\": \"password1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "dc2e8ed0-1f61-401b-9377-5d78a9b5c841",
+    "colId": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "containerId": "1bcd234b-58a2-4f52-9bc9-1600fb9c5e03",
+    "name": "Get Users",
+    "url": "{{baseUrl}}/v1/users/",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2023-07-21T06:35:09.478Z",
+    "modified": "2023-07-21T07:41:48.313Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "1",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "page",
+        "value": "2",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "sortBy",
+        "value": "name:asc",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "7fb15a33-332b-4051-b782-728b45a602b0",
+    "colId": "8e57f3af-a19b-417a-8c85-cb5913ca7df5",
+    "containerId": "1bcd234b-58a2-4f52-9bc9-1600fb9c5e03",
+    "name": "Add Users",
+    "url": "{{baseUrl}}/v1/users",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2023-07-21T06:49:41.428Z",
+    "modified": "2023-07-21T07:08:56.717Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"A\",\n  \"email\": \"sonia@example.com\",\n  \"password\": \"password1\",\n  \"role\": \"USER\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
